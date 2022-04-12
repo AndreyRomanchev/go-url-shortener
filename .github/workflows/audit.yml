@@ -7,12 +7,11 @@ on:
 
 env:
   GO_VERSION: 1.18
-  UBUNTU_VERSION: "ubuntu-20.04"
 
 jobs:
 
   audit:
-    runs-on: ${{ env.UBUNTU_VERSION }}
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
 
