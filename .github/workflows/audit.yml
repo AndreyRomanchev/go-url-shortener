@@ -7,7 +7,7 @@ on:
 
 env:
   GO_VERSION: 1.18
-  UBUNTU_VERSION: ubuntu-20.04
+  UBUNTU_VERSION: "ubuntu-20.04"
 
 jobs:
 
